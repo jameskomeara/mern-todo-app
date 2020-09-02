@@ -1,68 +1,43 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This was a project I decided to undertake to learn the MERN stack. I followed Brad Traversy's tutorial on youtube and find it amazing. the knowledge that I have gained about development is amazing for such a free course. The tutorial was completed in 4 days up to authorisation with JWT.  
 
-## Available Scripts
+What was learned from this project?
 
-In the project directory, you can run:
+MongoDB
+How to use MongoDB, creating clusters, accessing db
 
-### `npm start`
+Postman
+How to use Postman desktop application to test api endpoints including GET, POST and DELETE. This was my first time using Postman
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Mongoose
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+ExpressJS
 
-### `npm test`
+React
+I already had some skill in react but this project allowed me to gain a better understanding of how react can be used with an api and information from a database that updates 
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+NodeJS
+I learned  how to create a backend in this project using node and projects to create models, routes, endpoints
 
-### `npm run build`
+CSSTransitions
+This is a great package that I saw in this project for transitions of components which is amazing to use for easy transitions 
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Redux
+This was my first experience with Redux using global state. I learned about stores, reducers and actions. Redux can be a very useful tool but does not seem to be strictly necessary in every project. Global state is very handy to have when there is a lot of information in state but is not stricly necessary for small scale projects.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Thunk
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Axios
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Bootstrap
+This was my first time using Bootstrap and it is an amazing package that makes designing a webpage so much easier. It has a lot of handy components that allow you to focus on designing the architecture of an app rather than worrying about something like a toggle 
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+reactbootstrap
+Allows bootstrap to work with react - a must have
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Heroku
+This was also my first time deploying a page to the internet fully. Heroku made it simple. all it required was git remote and to push a build. Heroku is definetl something that I will use more often in my deevelopment career
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Concurrently
+This is another first time package that allows server and client to run at the same time when in a dev environment. Another must have that will be used a lot more.
