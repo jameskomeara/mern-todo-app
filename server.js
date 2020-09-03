@@ -2,9 +2,9 @@ const express = require("express");
 const mongoose = require("mongoose");
 const users = require('./routes/api/users');
 const items = require('./routes/api/items');
+const auth = require('./routes/api/auth');
 const path = require('path')
 const config = require('config')
-const jwt = require('jsonwebtoken')
 
 
 const app = express();
@@ -12,7 +12,7 @@ const app = express();
 // Bodyparser Middleware
 app.use(express.json());
 
-// DB Config
+// DB Config - allows to pull data from config/default 
 const db = config.get('mongouri'); 
 
 // Connect to Mongo
@@ -27,6 +27,8 @@ mongoose.connect(db, {
 // Use Routes
 app.use('/api/items', items);
 app.use('/api/users', users)
+app.use('/api/auth', auth)
+
 
 // Serve static assets if in production
 if(process.env.NODE_ENV === 'production') {
