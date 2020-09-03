@@ -1,0 +1,4 @@
+{
+    "mongouri": "mongodb+srv://james:NtDuyegxse50wq38@mern-database.sym9f.mongodb.net/mern-database?retryWrites=true&w=majority",
+    "jwtSecret": "jameslol"
+}

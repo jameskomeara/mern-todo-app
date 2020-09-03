@@ -3,7 +3,8 @@ const mongoose = require("mongoose");
 const users = require('./routes/api/users');
 const items = require('./routes/api/items');
 const path = require('path')
-
+const config = require('config')
+const jwt = require('jsonwebtoken')
 
 
 const app = express();
@@ -12,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 // DB Config
-const db = require('./config/keys').mongoURI; 
+const db = config.get('mongouri'); 
 
 // Connect to Mongo
 mongoose.connect(db, {
