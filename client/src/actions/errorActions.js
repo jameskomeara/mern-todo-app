@@ -11,6 +11,6 @@ export const returnErrors = (msg, status, id = null) => {
 // CLEAR ERROS
 export const clearErrors = () => {
   return {
-    type: clearErrors,
+    type: CLEAR_ERRORS,
   }
 }
